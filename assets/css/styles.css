@@ -1,0 +1,27 @@
+:root {
+    --gray: #808080;
+  }
+
+
+.gray-border {
+border: 0.5px solid var(--gray);
+padding: 10px;
+display: inline-block;
+}
+
+
+body {
+    background-color: #fffdf1; /* 淡黃色 */ 
+    body {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    }
+}
+
+h1 {
+    color: #003366; /* 紅色 */
+    font-weight: bold;
+}
+
+h2, h3{
+    font-weight: bold;
+}

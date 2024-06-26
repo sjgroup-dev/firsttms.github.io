@@ -1,0 +1,10 @@
+:root {
+    --gray: #808080;
+  }
+
+
+.gray-border {
+border: 0.5px solid var(--gray);
+padding: 10px;
+display: inline-block;
+}

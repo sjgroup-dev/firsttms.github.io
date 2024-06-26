@@ -1,0 +1,16 @@
+title: First TMS Docs
+description: First TMS User Manual
+theme: just-the-docs
+
+# url: https://just-the-docs.github.io
+
+# aux_links:
+#   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+
+
+nav:
+  - title: home
+    url: /index
+  # - title: user manual
+  #   url: /pages/user manual
