@@ -9,7 +9,6 @@ css: style.css
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-
 - [First TMS 操作手冊](#first-tms-操作手冊)
   - [簡介](#簡介)
   - [安裝指南](#安裝指南)
@@ -74,40 +73,41 @@ css: style.css
 
 ***
 
-<!-- # 目錄
-1. [簡介](#簡介)
-2. [安裝指南](#安裝指南)｛
-3. [主要應用模塊](#主要應用模塊)
-   1. [First TMS 使用步驟](#first-tms-使用步驟)
-   2. [First TMS 主頁操作步驟](#first-tms-主頁操作步驟)
-      1. [進入主頁頁面](#步驟-1進入主頁頁面) 
-      
-   3. [First TMS 新增配送單操作步驟](#first-tms-新增配送單操作步驟)
-   4. [First TMS 配送單操作步驟](#first-tms-配送單操作步驟)
-   5. [First TMS 配送單訂單資訊操作步驟](#first-tms-配送單訂單資訊操作步驟)
-   6. [First TMS 訂單紀錄操作步驟](#first-tms-訂單紀錄操作步驟)
-   7. [First TMS 設定頁面操作步驟](#first-tms-設定頁面操作步驟) 
-
-
-***
-
--->
-
+{: .highlight}
 ## 簡介
 
 歡迎使用 First TMS 物流管理系統。本手冊旨在幫助您快速了解和掌握 First TMS 的各項功能及操作步驟，從而提高您的物流管理效率。First TMS 提供了一個直觀且高效的平台，讓您可以輕鬆管理配送單、跟蹤訂單狀態、設定個人偏好等。
 
 本手冊涵蓋以下主要模塊：
-- 登入操作步驟
-- 新增配送單
-- 配送單訊息操作
-- 訂單紀錄操作
-- 設定頁面操作
+
+```mermaid
+
+flowchart TD;
+    A[First TMS 操作手冊]
+    A --> D[First TMS 使用步驟]
+    D --> E[主頁操作步驟]
+    E --> F[新增配送單操作步驟]
+    F --> F2[配送單操作步驟]
+    F2 --> F3[配送單訂單資訊操作步驟]
+    F3 --> I[訂單紀錄操作步驟]
+    I --> J[設定頁面操作步驟]
+
+    style A color:#000000, fill:#FCCA1F, stroke:#000000
+    style D color:#000000, stroke:#000000, fill:#FCCA1F
+    style E color:#000000, stroke:#000000, fill:#FCCA1F
+    style F color:#000000, stroke:#000000, fill:#FCCA1F
+    style F2 color:#000000, stroke:#000000, fill:#FCCA1F
+    style F3 color:#000000, stroke:#000000, fill:#FCCA1F
+    style I color:#000000, stroke:#000000, fill:#FCCA1F
+    style J color:#000000, stroke:#000000, fill:#FCCA1F
+
+```
 
 我們將詳細介紹每個模塊的使用方法，並提供相應的圖片說明，讓您可以直觀地理解和應用各項操作。
 
 ***
 
+{: .highlight}
 ## 安裝指南
 
 <table>
@@ -133,9 +133,11 @@ css: style.css
 
 # First TMS 使用步驟
 
+{: .highlight}
 ## 步驟 1：開啟應用程式
 1. 在您的移動設備上，找到並打開 First TMS 應用程式。
 
+{: .highlight}
 ## 步驟 2：登入
 1. 您將看到如下圖所示的登入頁面：
 
@@ -147,6 +149,7 @@ css: style.css
 3. 在「密碼」欄位中輸入您的密碼。
 4. 輸入完成後，點擊頁面底部的黃色「登入」按鈕。
 
+{: .highlight}
 ## 步驟 3：進入主頁頁面
 1. 系統將驗證您的使用者 ID 和密碼。
 2. 驗證成功後，您將進入 First TMS 的主頁面，開始使用應用程式的各項功能。
@@ -155,11 +158,13 @@ css: style.css
 
 # First TMS 主頁操作步驟
 
+{: .highlight}
 ## 步驟 1：進入主頁頁面
 1. 登入成功後，您將進入主頁面。主頁面如下圖所示：
 
    ![主頁面](assets/images/home_page/default.png)
 
+{: .highlight}
 ## 步驟 2：主頁頁面介紹
 1. 總共區分三個模塊:
    - 「登入資訊」
@@ -168,6 +173,7 @@ css: style.css
 
 請確保帳號名稱，以及右上角用戶圖示正確，如果顯示綠燈表示當前網路狀態正常。
 
+{: .highlight}
 ## 步驟 3：更新運輸單
 1. 當 App 登入後，我們會進行數據同步動作，並且顯示最後一次同步日期與時間，您也可以手動點擊，右邊「更新」按鈕 ![載入中](assets/images/home_page/refresh-time.png)
 
@@ -184,6 +190,7 @@ css: style.css
 
    ![資料更新失敗](assets/images/home_page/refresh-1.png)
 
+{: .highlight}
 ## 步驟 4：查看運輸單
 1. 主頁面會顯示您的運輸單列表，包括每張運輸單的詳細信息和狀態。
    - 顯示運輸單號:`XCSHKLFSA240240400299` 
@@ -202,23 +209,28 @@ css: style.css
 
    ![查無運輸單](assets/images/home_page/no_order_found.png)
 
+{: .highlight}
 ## 步驟 5：開始新增配送單
 1. 點擊「新增配送單」按鈕以進入新增配送單頁面。
 
    ![新增配送單](assets/images/home_page/default.png)
 
 
-<!-- ## 注意事項
+<!-- {: .highlight}
+## 注意事項
 - **定時更新**：請定期更新您的運輸單信息，以確保資料的準確性。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保運輸過程順利。
 
 *** -->
+***
 
 # First TMS 新增配送單操作步驟
 
+{: .highlight}
 ## 步驟 1：進入新增配送單頁面
 1. 在主頁面上，點擊「新增配送單」按鈕以進入新增配送單頁面。
 
+{: .highlight}
 ## 步驟 2：新增配送單頁面介紹
 1. 總共區分三個模塊:
    - 「輸入配送單」
@@ -229,6 +241,7 @@ css: style.css
 
    ![新增配送單](assets/images/add_order/default.png)
 
+{: .highlight}
 ## 步驟 3：新增配送單
 
 ### 新增配送單
@@ -261,6 +274,7 @@ css: style.css
 
    ![刪除配送單](assets/images/add_order/delete_order.png)
 
+{: .highlight}
 ## 步驟 4：開始配送
 1. 驗證配送單詳細信息，包括地址和聯絡人信息。
    - 確認所有信息無誤後，點擊「開始派送」按鈕。
@@ -277,18 +291,22 @@ css: style.css
 
    ![匹配成功提示](assets/images/add_order/msg2.png)
 
-<!-- ## 注意事項
+<!-- {: .highlight}
+## 注意事項
 - **確認輸入正確**：請確保輸入的配送單號無誤。
 - **掃描條碼**：如果手動輸入不便，可以使用相機掃描條碼來自動填充配送單號。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保配送過程順利。
 
 *** -->
+***
 
 # First TMS 配送單操作步驟
 
+{: .highlight}
 ## 步驟 1：進入配送單頁面
 1. 在主頁面上，點擊底部導航欄的「配送單」圖標以進入配送單頁面。
 
+{: .highlight}
 ## 步驟 2：查看配送單訊息
 1. 進入配送單頁面後，系統將顯示訂單訊息內容。
    - 訂單狀態可以是「未完成」、「進行中」或其他狀態。
@@ -309,6 +327,7 @@ css: style.css
 
    ![尚無記錄](assets/images/order_page/no_history.png)
 
+{: .highlight}
 ## 步驟 3：查詢配送單號
 1. 在「請輸入配送單號」欄位中輸入您的配送單號。
    - 您可以手動輸入單號或點擊相機圖標掃描條碼。
@@ -318,6 +337,7 @@ css: style.css
    
    ![輸入配送單號](assets/images/order_page/undone.png)
 
+{: .highlight}
 ## 步驟 4：處理配送單
 1. 在配送單列表中，點擊需要處理配送單進入**訂單資訊**頁面。
 
@@ -325,9 +345,11 @@ css: style.css
 
 # First TMS 配送單訂單資訊操作步驟
 
+{: .highlight}
 ## 步驟 1：進入訂單資訊頁面
 1. 在配送單列表中，點擊需要處理配送單進入**訂單資訊**頁面。
 
+{: .highlight}
 ## 步驟 2：訂單資訊頁面介紹
 1. 總共區分六個模塊:
    - 「訂單資訊」
@@ -339,6 +361,7 @@ css: style.css
   
 ![訂單資訊](assets/images/info_page/default.png)
 
+{: .highlight}
 ## 步驟 3：查看訂單狀態
 1. 點擊訂單資訊右上方 「i」 按鈕，可以查看此張訂單完成資訊。
    - 例如，顯示開始託收和完成託收的時間。
@@ -349,6 +372,7 @@ css: style.css
 
    ![查看送貨狀態](assets/images/info_page/info_delivery_order.png)
 
+{: .highlight}
 ## 步驟 4：核對序列號
 
 ### 核對序列號
@@ -367,12 +391,14 @@ css: style.css
 
    ![刪除序列號](assets/images/info_page/delete_sn.png)
 
+{: .highlight}
 ## 步驟 5：查看送貨/託收單資訊
 1. 在查看送貨/託收單資訊，系統將顯示訂單的詳細信息和狀態。
    - 例如，顯示總數量13件，已掃描0件，待掃描2件。
    - 點擊「查看更多」按鈕，可以瀏覽所有產品資訊。
    ![查看送貨/託收單資訊資訊](assets/images/info_page/see_more.png)
 
+{: .highlight}
 ## 步驟 6：上傳圖片
 1. 點擊「上傳圖片」按鈕，可以選擇從相簿或相機上傳圖片。
 
@@ -390,6 +416,7 @@ css: style.css
 
    ![上傳成功](assets/images/info_page/upload_image_edit.png)
 
+{: .highlight}
 ## 步驟 7：更新訂單狀態
 
 ### 完成訂單
@@ -426,12 +453,14 @@ css: style.css
 
    ![取消訂單確認](assets/images/info_page/msg_cancel.png)
 
+{: .highlight}
 ## 步驟 8：處理錯誤提示
 1. 如果連線失敗，系統會提示「連線失敗，請檢查連線狀態。」。
 
    ![連線失敗](assets/images/info_page/msg_connection_failed_msg.png)
 
-<!-- ## 注意事項
+<!-- {: .highlight}
+## 注意事項
 - **確認輸入正確**：請確保輸入的序列號無誤。
 - **掃描條碼**：如果手動輸入不便，可以使用相機掃描條碼來自動填充序列號。
 - **上傳圖片**：確保上傳的圖片清晰可辨識，方便後續核對和記錄。
@@ -439,11 +468,15 @@ css: style.css
 
 *** -->
 
+***
+
 # First TMS 訂單紀錄操作步驟
 
+{: .highlight}
 ## 步驟 1：進入訂單紀錄頁面
 1. 在主頁面上，點擊底部導航欄的「訂單紀錄」圖標以進入訂單紀錄頁面。
 
+{: .highlight}
 ## 步驟 2：查看訂單紀錄
 1. 進入訂單紀錄頁面後，系統將顯示訂單訊息內容。
    - 訂單狀態可以是「已完成」、「已跟進」或其他狀態。
@@ -464,6 +497,7 @@ css: style.css
 
    ![尚無記錄](assets/images/order_history/no_order.png)
 
+{: .highlight}
 ## 步驟 3：查詢配送單號
 1. 在「請輸入配送單號」欄位中輸入您的配送單號。
    - 您可以手動輸入單號或點擊相機圖標掃描條碼。
@@ -472,6 +506,7 @@ css: style.css
    
  ![查詢配送單](assets/images/order_history/search_done.png)
 
+{: .highlight}
 ## 步驟 4：重新上傳訂單資訊
 1. 如果訂單紀錄存在未上傳的資訊時，需要請配送員進行手動上傳操作:
    
@@ -490,18 +525,20 @@ css: style.css
 
    ![重新上傳失敗](assets/images/order_history/reupload_failed.png)
 
-<!-- ## 注意事項
+<!-- {: .highlight}
+## 注意事項
 - **確認輸入正確**：請確保輸入的配送單號無誤。
 - **掃描條碼**：如果手動輸入不便，可以使用相機掃描條碼來自動填充配送單號。
 - **上傳圖片**：確保上傳的圖片清晰可辨識，方便後續核對和記錄。
 - **處理提示信息**：根據系統提示的信息進行相應操作，確保訂單處理過程順利。
 
 *** -->
+***
 
 # First TMS 設定頁面操作步驟
 
-## 步驟 1：進入設定頁面
 {: .highlight}
+## 步驟 1：進入設定頁面
 1. 在主頁面上，點擊底部導航欄的「設定」圖標以進入設定頁面。
 
    ![設定頁面](assets/images/setting_page/account.png)
@@ -510,6 +547,7 @@ css: style.css
 ## 步驟 2：查看帳號資訊
 1. 在設定頁面，可以看到用戶的基本帳號資訊。
 
+{: .highlight}
 ## 步驟 3：清除暫存
 1. 點擊「清除暫存」按鈕，可以清除應用程式的暫存資料。
 2. 系統會彈出確認訊息，提示「確定要清除暫存？」。
@@ -519,6 +557,7 @@ css: style.css
    ![確認清除暫存](assets/images/setting_page/msg3.png)
    ![清除暫存成功](assets/images/setting_page/msg4.png)
 
+{: .highlight}
 ## 步驟 4：登出帳號
 1. 點擊「登出」按鈕，可以登出當前帳號。
 2. 系統會彈出確認訊息，提示「確定要登出？」。
@@ -527,12 +566,13 @@ css: style.css
    ![登出帳號](assets/images/setting_page/account.png)
    ![確認登出](assets/images/setting_page/msg5.png)
 
-<!-- ## 注意事項
+<!-- {: .highlight}
+## 注意事項
 - **確認操作**：每次進行清除暫存、切換語言或登出帳號操作時，系統都會彈出確認訊息，請確認無誤後再進行操作。 -->
 
 ***
 
-
+<!-- 
 {: .warning }
 A paragraph...
 
@@ -546,4 +586,82 @@ A paragraph...
 A paragraph...
 
 {: .highlight}
-A paragraph...
+A paragraph... -->
+
+++++
+<pre class="language-mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</pre>
+++++
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
+
+flowchart TD;
+    A[First TMS 操作手冊]
+    A --> D[First TMS 使用步驟]
+    D --> E[First TMS 主頁操作步驟]
+    E --> F[First TMS 新增配送單操作步驟]
+    F --> F2[First TMS 配送單操作步驟]
+    F2 --> F3[First TMS 配送單訂單資訊操作步驟]
+    F3 --> I[First TMS 訂單紀錄操作步驟]
+    I --> J[First TMS 設定頁面操作步驟]
+
+```
+
+```mermaid
+
+flowchart TD;
+    A[First TMS 操作手冊]
+    A --> D[使用步驟]
+    D --> D1[1:開啟應用程式]
+    D1 --> D2[2:登入]
+    D2 --> D3[3:進入主頁頁面]
+    A --> E[主頁操作步驟]
+    E --> E1[1:進入主頁頁面]
+    E1 --> E2[2:主頁頁面介紹]
+    E2 --> E3[3:更新運輸單]
+    E3 --> E4[4:查看運輸單]
+    E4 --> E5[5:開始新增配送單]
+    A --> F[新增配送單操作步驟]
+    F --> F1[1:進入新增配送單頁面]
+    F1 --> F2[2:新增配送單頁面介紹]
+    F2 --> F3[3:新增配送單]
+    F3 --> F4[4:開始配送]
+    A --> G[配送單操作步驟]
+    G --> G1[1:進入配送單頁面]
+    G1 --> G2[2:查看配送單訊息]
+    G2 --> G3[3:查詢配送單號]
+    G3 --> G4[4:處理配送單]
+    A --> H[配送單訂單資訊操作步驟]
+    H --> H1[1:進入訂單資訊頁面]
+    H1 --> H2[2:訂單資訊頁面介紹]
+    H2 --> H3[3:查看訂單狀態]
+    H3 --> H4[4:核對序列號]
+    H4 --> H5[5:查看送貨/託收單資訊]
+    H5 --> H6[6:上傳圖片]
+    H6 --> H7[7:更新訂單狀態]
+    H7 --> H8[8:處理錯誤提示]
+    A --> I[訂單紀錄操作步驟]
+    I --> I1[1:進入訂單紀錄頁面]
+    I1 --> I2[2:查看訂單紀錄]
+    I2 --> I3[3:查詢配送單號]
+    I3 --> I4[4:重新上傳訂單資訊]
+    A --> J[設定頁面操作步驟]
+    J --> J1[1:進入設定頁面]
+    J1 --> J2[2:查看帳號資訊]
+    J2 --> J3[3:清除暫存]
+    J3 --> J4[4:登出帳號]
+
+```

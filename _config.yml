@@ -8,7 +8,7 @@ theme: just-the-docs
 #   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 
-logo: "/assets/images/first_TMS_cover.png"
+logo: "/assets/images/first_TMS_cover_logo.png"
 # color_scheme: dark
 
 # search_enabled: false
@@ -47,6 +47,11 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
-
 ga_tracking: G-G2SXN9HRCD
 ga_tracking_anonymize_ip: true # Use GDPR c
+
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.9.1"
