@@ -9,6 +9,16 @@ css: style.css
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G2SXN9HRCD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G2SXN9HRCD');
+</script>
+
 
 - [First TMS 操作手冊](#first-tms-操作手冊)
   - [簡介](#簡介)
