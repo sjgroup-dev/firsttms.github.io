@@ -8,9 +8,45 @@ theme: just-the-docs
 #   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 
+logo: "/assets/images/first_TMS_cover.png"
+# color_scheme: dark
+
+# search_enabled: false
+nav_enabled: true
 
 nav:
   - title: home
     url: /index
   # - title: user manual
   #   url: /pages/user manual
+
+
+ga_tracking: G-G2SXN9HRCD
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+
+$pink-000: #f77ef1;
+$pink-100: #f967f1;
+$pink-200: #e94ee1;
+$pink-300: #dd2cd4;
+
+
+ga_tracking: G-G2SXN9HRCD
+ga_tracking_anonymize_ip: true # Use GDPR c

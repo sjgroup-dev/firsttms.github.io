@@ -1,23 +1,13 @@
 ---
 layout: default
 title: V1.0
-nav_order: 2
+nav_order: 1
 css: style.css
 ---
 
 <head>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G2SXN9HRCD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-G2SXN9HRCD');
-</script>
 
 
 - [First TMS 操作手冊](#first-tms-操作手冊)
@@ -511,10 +501,12 @@ css: style.css
 # First TMS 設定頁面操作步驟
 
 ## 步驟 1：進入設定頁面
+{: .highlight}
 1. 在主頁面上，點擊底部導航欄的「設定」圖標以進入設定頁面。
 
    ![設定頁面](assets/images/setting_page/account.png)
 
+{: .highlight}
 ## 步驟 2：查看帳號資訊
 1. 在設定頁面，可以看到用戶的基本帳號資訊。
 
@@ -539,3 +531,19 @@ css: style.css
 - **確認操作**：每次進行清除暫存、切換語言或登出帳號操作時，系統都會彈出確認訊息，請確認無誤後再進行操作。 -->
 
 ***
+
+
+{: .warning }
+A paragraph...
+
+{: .important }
+A paragraph...
+
+{: .new }
+A paragraph...
+
+{: .note }
+A paragraph...
+
+{: .highlight}
+A paragraph...
