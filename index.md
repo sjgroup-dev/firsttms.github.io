@@ -67,7 +67,6 @@ css: style.css
   <img src="assets/images/first_TMS_cover.png" style="display: block; max-width: 100%;">
 </div>
 
-
 * **版本 :** 1.0
 * **公司名稱 :** Supply First Technologies Limited 宏泰天一科技有限公司
 
@@ -587,81 +586,3 @@ A paragraph...
 
 {: .highlight}
 A paragraph... -->
-
-++++
-<pre class="language-mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-</pre>
-++++
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-```mermaid
-
-flowchart TD;
-    A[First TMS 操作手冊]
-    A --> D[First TMS 使用步驟]
-    D --> E[First TMS 主頁操作步驟]
-    E --> F[First TMS 新增配送單操作步驟]
-    F --> F2[First TMS 配送單操作步驟]
-    F2 --> F3[First TMS 配送單訂單資訊操作步驟]
-    F3 --> I[First TMS 訂單紀錄操作步驟]
-    I --> J[First TMS 設定頁面操作步驟]
-
-```
-
-```mermaid
-
-flowchart TD;
-    A[First TMS 操作手冊]
-    A --> D[使用步驟]
-    D --> D1[1:開啟應用程式]
-    D1 --> D2[2:登入]
-    D2 --> D3[3:進入主頁頁面]
-    A --> E[主頁操作步驟]
-    E --> E1[1:進入主頁頁面]
-    E1 --> E2[2:主頁頁面介紹]
-    E2 --> E3[3:更新運輸單]
-    E3 --> E4[4:查看運輸單]
-    E4 --> E5[5:開始新增配送單]
-    A --> F[新增配送單操作步驟]
-    F --> F1[1:進入新增配送單頁面]
-    F1 --> F2[2:新增配送單頁面介紹]
-    F2 --> F3[3:新增配送單]
-    F3 --> F4[4:開始配送]
-    A --> G[配送單操作步驟]
-    G --> G1[1:進入配送單頁面]
-    G1 --> G2[2:查看配送單訊息]
-    G2 --> G3[3:查詢配送單號]
-    G3 --> G4[4:處理配送單]
-    A --> H[配送單訂單資訊操作步驟]
-    H --> H1[1:進入訂單資訊頁面]
-    H1 --> H2[2:訂單資訊頁面介紹]
-    H2 --> H3[3:查看訂單狀態]
-    H3 --> H4[4:核對序列號]
-    H4 --> H5[5:查看送貨/託收單資訊]
-    H5 --> H6[6:上傳圖片]
-    H6 --> H7[7:更新訂單狀態]
-    H7 --> H8[8:處理錯誤提示]
-    A --> I[訂單紀錄操作步驟]
-    I --> I1[1:進入訂單紀錄頁面]
-    I1 --> I2[2:查看訂單紀錄]
-    I2 --> I3[3:查詢配送單號]
-    I3 --> I4[4:重新上傳訂單資訊]
-    A --> J[設定頁面操作步驟]
-    J --> J1[1:進入設定頁面]
-    J1 --> J2[2:查看帳號資訊]
-    J2 --> J3[3:清除暫存]
-    J3 --> J4[4:登出帳號]
-
-```
